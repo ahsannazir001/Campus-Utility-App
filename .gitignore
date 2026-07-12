@@ -1,0 +1,34 @@
+# Python/Flask Backend Local & Temporary Files
+backend/venv/
+backend/__pycache__/
+backend/database.db
+backend/uploads/
+*.pyc
+
+# Flutter Frontend Local & Temporary Files
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/android/app/debug
+frontend/android/app/profile
+frontend/android/app/release
+
+# IDEs & System files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================================
+# IP Protection: Ignore actual UI implementation & API services code
+# to prevent copying/cloning, while showcasing project structure
+# =========================================================================
+frontend/lib/screens/
+frontend/lib/services/
+frontend/lib/providers/
+backend/app.py
